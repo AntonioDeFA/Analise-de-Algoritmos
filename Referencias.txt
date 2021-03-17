@@ -1,0 +1,13 @@
+https://pt.wikipedia.org/wiki/Bubble_sort#:~:text=O%20bubble%20sort%2C%20ou%20ordenação,de%20ordenação%20dos%20mais%20simples
+•	https://gifimage.net/bubble-sort-gif-7/
+•	https://pt.wikipedia.org/wiki/Insertion_sort
+•	https://web.whatsapp.com/0b9ab6f1-0a10-4e09-9885-ae72e804b5cc
+•	https://pt.wikipedia.org/wiki/Selection_sort
+•	https://pt.wikipedia.org/wiki/Quicksort
+•	https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AQuicksort-example.gif&psig=AOvVaw3TMR2XWuqt80vJTnMd2iGx&ust=1615831043277000&source=images&cd=vfe&ved=0CAcQjhxqFwoTCLDcy_CtsO8CFQAAAAAdAAAAABAn
+•	https://pt.wikipedia.org/wiki/Merge_sort#:~:text=O%20merge%20sort%2C%20ou%20ordenação,tipo%20dividir-para-conquistar.&text=Como%20o%20algoritmo%20Merge%20Sort,muito%20eficiente%20em%20alguns%20problemas
+•	https://www.javatpoint.com/bubble-sort-in-java
+•	https://www.javatpoint.com/insertion-sort-in-java
+•	https://www.javatpoint.com/merge-sort
+•	https://www.javatpoint.com/selection-sort-in-java
+•	https://www.javatpoint.com/quick-sort
