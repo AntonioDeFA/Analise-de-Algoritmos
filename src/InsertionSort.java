@@ -14,9 +14,9 @@ public class InsertionSort extends AlgoritmoDeOrdenacao {
 				array.set(i+1,array.get(i));
 				i--;
 				trocaDeChaves++;
-				testeDeChaves+=2;
+				testeDeChaves++;
 			}
-			testeDeChaves+=2;			
+			testeDeChaves++;			
 			array.set(i+1,key);
 			trocaDeChaves++;
 

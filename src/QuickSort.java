@@ -6,10 +6,7 @@ public class QuickSort extends AlgoritmoDeOrdenacao {
 		//pois com List o algoritmo estoura o a memoria 
 		//dando errdo Java.lang.StackOverflowError
 		//depois convertendo-o de volta
-		int[] numeros = new int[arr.size()];
-		for (int i = 0; i < numeros.length; i++) {
-			numeros[i]=arr.get(i);
-		}
+		Integer[] numeros = (Integer[]) arr.toArray();
 		testeDeChaves=0;
 		trocaDeChaves=0;
 		iniciar();
@@ -20,7 +17,7 @@ public class QuickSort extends AlgoritmoDeOrdenacao {
 			arr.add(numeros[i]);
 		}
 	}
-	public static void quickSort(int v[], int esquerda, int direita) {
+	public static void quickSort(Integer v[], int esquerda, int direita) {
 		int esq = esquerda;
 		int dir = direita;
 		int pivo = v[(esq + dir) / 2];
