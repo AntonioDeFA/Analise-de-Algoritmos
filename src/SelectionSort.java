@@ -14,7 +14,7 @@ public class SelectionSort extends AlgoritmoDeOrdenacao {
 					index = j;
 				}
 			}
-			trocaDeChaves++;
+			trocaDeChaves+=2;
 			int menor = lista.get(index);
 			lista.set(index, lista.get(i));
 			lista.set(i, menor);

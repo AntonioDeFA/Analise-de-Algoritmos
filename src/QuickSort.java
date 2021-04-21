@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.List;
 
 public class QuickSort extends AlgoritmoDeOrdenacao {
@@ -6,7 +7,10 @@ public class QuickSort extends AlgoritmoDeOrdenacao {
 		//pois com List o algoritmo estoura o a memoria 
 		//dando errdo Java.lang.StackOverflowError
 		//depois convertendo-o de volta
-		Integer[] numeros = (Integer[]) arr.toArray();
+		Integer[] numeros = new Integer[arr.size()];
+		for (int i = 0; i < numeros.length; i++) {
+			numeros[i]=arr.get(i);
+		}
 		testeDeChaves=0;
 		trocaDeChaves=0;
 		iniciar();
@@ -24,7 +28,6 @@ public class QuickSort extends AlgoritmoDeOrdenacao {
 		int troca;
 		
 		while (esq <= dir) {
-			testeDeChaves++;
 			while (v[esq] < pivo) {
 				esq = esq + 1;
 				testeDeChaves++;
@@ -41,14 +44,12 @@ public class QuickSort extends AlgoritmoDeOrdenacao {
 				v[dir] = troca;
 				esq = esq + 1;
 				dir = dir - 1;
-				trocaDeChaves++;
+				trocaDeChaves+=3;
 			}
 		}
-		testeDeChaves+=2;
 		if (dir > esquerda) {
 			quickSort(v, esquerda, dir);
 		}
-		testeDeChaves++;
 		if (esq < direita) {
 			quickSort(v, esq, direita);
 		}

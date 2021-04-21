@@ -19,11 +19,10 @@ public class MergeSort extends AlgoritmoDeOrdenacao {
 		int i = 0, j = 0;
 		int k = beg;
 		while (i < l && j < r) {
-			testeDeChaves += 4;
+			testeDeChaves ++;
 			if (leftArray[i] <= rightArray[j]) {
 				arr.set(k, leftArray[i]);
 				trocaDeChaves++;
-				testeDeChaves --;
 				i++;
 			} else {
 				arr.set(k, rightArray[j]);
@@ -32,25 +31,21 @@ public class MergeSort extends AlgoritmoDeOrdenacao {
 			}
 			k++;
 		}
-		testeDeChaves += 2;
 		while (i < l) {
 			arr.set(k, leftArray[i]);
 			trocaDeChaves++;
 			i++;
 			k++;
 		}
-		testeDeChaves ++;
 		while (j < r) {
 			arr.set(k, rightArray[j]);
 			trocaDeChaves++;
 			j++;
 			k++;
 		}
-		testeDeChaves ++;
 	}
 
 	static void execute(List<Integer> arr, int beg, int end) {
-		testeDeChaves++;
 		if (beg < end) {
 			int mid = (beg + end) / 2;
 			execute(arr, beg, mid);

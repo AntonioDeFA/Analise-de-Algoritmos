@@ -18,7 +18,7 @@ public class BubbleSort extends AlgoritmoDeOrdenacao {
 					arr.set(j-1, arr.get(j));
 					arr.set(j, temp);
 					entrou=true;
-					trocaDeChaves+=1;
+					trocaDeChaves+=3;
 				}
 			}
 		}
